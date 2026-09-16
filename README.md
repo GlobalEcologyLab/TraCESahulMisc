@@ -11,7 +11,7 @@ The package was designed specifically for researchers working with the TraCE-Sah
 The easiest way to install the package is to use `remotes` as below.
 
 ``` r
-remotes::install_github("scbrown86/TraCESahulMisc", build_vignettes = FALSE)
+remotes::install_github("globalecologylab/TraCESahulMisc", build_vignettes = FALSE)
 ```
 
 The package contains a pre-built vignette that *should* not be re-built on install so please make sure you set `build_vignettes = FALSE` when installing.

@@ -1,0 +1,37 @@
+Package: TraCESahulMisc
+Type: Package
+Title: TraCESahulMisc
+Version: 0.5.0
+Authors@R: c(
+    person(
+      "Stuart", "Brown",
+      email = "s.brown@adelaide.edu.au",
+      role = c("aut", "cre")
+    )
+  )
+Description: Functions and examples for interaction with the TraCE-Sahul dataset.
+    Contains an example fossil dataset for a virtual species, and some basic 
+    functions for collating, subsetting, and processing data from the 
+    TraCE-Sahul dataset.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 4.4.0),
+    terra (>= 1.9.38)
+Imports: 
+    data.table,
+    fastbioclim,
+    FNN,
+    future,
+    pbapply,
+    sf,
+    utils
+Suggests: 
+    knitr,
+    randomForest,
+    rmarkdown,
+    rnaturalearth,
+    rnaturalearthdata
+VignetteBuilder: knitr
+Config/roxygen2/version: 8.1.0
